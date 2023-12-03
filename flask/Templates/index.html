@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>House Price Prediction</title>
+   </head>
+
+   <body>
+      <div id="wrap">
+         <h1>House Price Prediction</h1>
+         <section id="furn" class="frame2">
+            <div class="login">
+               <form action="/predict" method="post">
+                  <table class="entryForm">
+                     <tr>
+                        <th>Bedrooms</th>
+                        <td><input type="text" name="bedrooms" placeholder="Bedrooms" required="required" /></td>
+                     </tr>
+
+                     <tr>
+                        <th>Bathrooms</th>
+                        <td><input type="text" name="bathrooms" placeholder="Bathrooms" required="required" /></td>
+                     </tr>
+
+                     <tr>
+                        <th>Sqft Living</th>
+                        <td><input type="text" name="sqft_living" placeholder="Sqft Living" required="required" /></td>
+                     </tr>
+
+                     <tr>
+                        <th>View</th>
+                        <td><input type="text" name="view" placeholder="View" required="required" /></td>
+                     </tr>
+
+                     <tr>
+                        <th>Grade</th>
+                        <td><input type="text" name="grade" placeholder="Grade" required="required" /></td>
+                     </tr>
+
+                     <tr>
+                        <th>Sqft Above</th>
+                        <td><input type="text" name="sqft_above" placeholder="Sqft Above" required="required" /></td>
+                     </tr>
+
+                     <tr>
+                        <th>Year Built</th>
+                        <td><input type="text" name="yr_built" placeholder="Year Built" required="required" /></td>
+                     </tr>
+
+                     <tr>
+                        <th>Sqft Living15</th>
+                        <td><input type="text" name="sqft_living15" placeholder="Sqft Living15" required="required" /></td>
+                     </tr>
+                  </table>
+                  <div class="btns">
+                     <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                  </div>
+                  {{result}}
+               </form>
+            </div>
+         </section>
+      </div>
+   </body>
+</html>

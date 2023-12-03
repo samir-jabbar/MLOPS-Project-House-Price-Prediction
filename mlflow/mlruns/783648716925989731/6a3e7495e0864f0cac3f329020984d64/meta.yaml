@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MON%20PC/Desktop/qfm%20s3/controle/mlflow/mlruns/783648716925989731/6a3e7495e0864f0cac3f329020984d64/artifacts
+end_time: 1701294831394
+entry_point_name: ''
+experiment_id: '783648716925989731'
+lifecycle_stage: active
+run_id: 6a3e7495e0864f0cac3f329020984d64
+run_name: enthused-goat-10
+run_uuid: 6a3e7495e0864f0cac3f329020984d64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701294823245
+status: 3
+tags: []
+user_id: MON PC

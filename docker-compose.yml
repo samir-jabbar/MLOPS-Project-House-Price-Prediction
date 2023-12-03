@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  fastapi_app:
+    image: controle-fastapi_app
+    ports:
+      - 1234:8000
+    networks:
+      - mynetwork
+
+  flask_app:
+    image: controle-flask_app
+    ports:
+      - 1235:5000
+    networks:
+      - mynetwork
+    depends_on:
+      - fastapi_app
+
+networks:
+  mynetwork:
+    driver: bridge
