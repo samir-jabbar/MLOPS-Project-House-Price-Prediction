@@ -20,11 +20,11 @@ The project is organized into several directories:
    ```bash
    git clone https://github.com/samir-jabbar/MLOPS-Project-House-Price-Prediction.git
 
-Navigate to Project Root:
+**Navigate to Project Root:**
 
 cd MLOPS-Project-House-Price-Prediction
 
-Explore Project Components:
+**Explore Project Components:**
 
 data: Contains the dataset.
 
@@ -36,11 +36,9 @@ flask_docker: Dockerfile for Flask application.
 
 mlflow: MLflow tracking and model training code.
 
-preprocessing.pkl: Pickle file for preprocessing transformations.
-
 docker-compose.yml: Docker Compose file.
 
-Running the Project
+**Running the Project**
 
 Run Docker Compose:
 
