@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MON%20PC/Desktop/qfm%20s3/controle/mlflow/mlruns/783648716925989731/99dbd997e5a54f8abe8786e6160081e7/artifacts
+end_time: 1701294817104
+entry_point_name: ''
+experiment_id: '783648716925989731'
+lifecycle_stage: active
+run_id: 99dbd997e5a54f8abe8786e6160081e7
+run_name: useful-sponge-581
+run_uuid: 99dbd997e5a54f8abe8786e6160081e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701294809963
+status: 3
+tags: []
+user_id: MON PC
