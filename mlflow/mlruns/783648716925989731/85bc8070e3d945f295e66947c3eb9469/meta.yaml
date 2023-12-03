@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/MON%20PC/Desktop/qfm%20s3/controle/mlflow/mlruns/783648716925989731/85bc8070e3d945f295e66947c3eb9469/artifacts
+end_time: 1701294822942
+entry_point_name: ''
+experiment_id: '783648716925989731'
+lifecycle_stage: active
+run_id: 85bc8070e3d945f295e66947c3eb9469
+run_name: abundant-crane-574
+run_uuid: 85bc8070e3d945f295e66947c3eb9469
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701294817276
+status: 3
+tags: []
+user_id: MON PC
